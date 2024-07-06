@@ -2,7 +2,7 @@
 #include <math.h>
 #include <stdlib.h>
 
-#include "s21_math.h"
+#include "../s21_math.h"
 
 START_TEST(s21_sinus) {
   ck_assert_double_eq_tol(s21_sin(99), sin(99), 0.000001);

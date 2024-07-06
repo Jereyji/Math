@@ -3,7 +3,7 @@ NAME = s21_abs.c s21_fabs.c s21_sin.c s21_cos.c s21_tan.c s21_asin.c s21_acos.c 
 NAME_O = s21_abs.o s21_fabs.o s21_sin.o s21_cos.o s21_tan.o s21_asin.o s21_acos.o s21_atan.o s21_sqrt.o s21_fmax.o s21_fmod.o s21_pow.o s21_check_pow.o s21_exp.o s21_log.o s21_ceil.o s21_floor.o
 LIB = s21_math.a
 
-all: s21_math.a lib_test
+all: s21_math.a test
 
 s21_math.a:
 	$(GCC) -c $(NAME)
